@@ -9,6 +9,8 @@
 ### Function: 
    Simple web app to search query word in Twitter by Twitter API 
 
-### Reference: http://net.tutsplus.com/
+### Reference: 
+http://net.tutsplus.com/
 
-### Thanks: The best web dev evangelist: Jeffrey Way
+### Thanks: 
+The best web dev evangelist: Jeffrey Way
