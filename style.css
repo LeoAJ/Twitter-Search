@@ -1,0 +1,48 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+ 	background: #ffff99 no-repeat;
+  	background: -webkit-gradient(linear, left top, left bottom, from(#ffff99), to(#ff9900)) no-repeat;
+  	background: -webkit-linear-gradient(top, #ffff99, #ff9900) no-repeat;
+  	background:    -moz-linear-gradient(top, #ffff99, #ff9900) no-repeat;
+  	background:     -ms-linear-gradient(top, #ffff99, #ff9900) no-repeat;
+  	background:      -o-linear-gradient(top, #ffff99, #ff9900) no-repeat;
+  	background:         linear-gradient(to bottom, #ffff99, #ff9900) no-repeat;
+  	width: 1200px;
+}
+
+.wrapper {
+	margin: 0, auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.control {
+	margin: 0, auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 10px 90px;
+
+	border: 10px solid #707070 ;
+	width: 600px;
+	height: 500px;
+	overflow: auto;
+
+  	-webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+  	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+
+}
+
+li {
+	line-height: 30px; 
+}
+
