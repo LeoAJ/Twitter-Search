@@ -18,23 +18,13 @@ if (typeof Object.create !== 'function') {
 			self.$elem = $(elem);
 
 			self.url = 'http://search.twitter.com/search.json';
-			// console.log(options);
+
 			// merge option with default and not to change default
 			self.options = $.extend({}, $.fn.twitterSearch.options, options);
 			
 			self.search = (typeof options === 'string') ? options : self.options.search;
 
-			// self.options.freq ? self.freq(self.execution) : self.execution();
-
 			self.freq(1);
-
-			/*
-			if (self.options.freq) {
-				self.freq();			
-			} else {
-				self.start();
-			}*/
-		
 		},
 		execution: function() {
 			var self = this;
@@ -92,8 +82,8 @@ if (typeof Object.create !== 'function') {
 
 	$.fn.twitterSearch = function(options) {
 		return this.each(function() {
-			var leoj = Object.create(ts);
-			leoj.init(options, this);
+			var twitter = Object.create(ts);
+			twitter.init(options, this);
 		});
 	};
 
