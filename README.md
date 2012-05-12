@@ -7,7 +7,7 @@
                   leave text box empty to disable this function.
 
 ### Function: 
-   Simple web app to search query word in Twitter by Twitter API 
+jQuery plugin with searching query word in Twitter by Twitter API 
 
 ### Reference: 
 http://net.tutsplus.com/
