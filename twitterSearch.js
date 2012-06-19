@@ -37,7 +37,7 @@ if (typeof Object.create !== 'function') {
 		},
 		freq: function(length) {
 			var self = this;
-			// console.log(self.options.freq);
+
 			ts.timer = setTimeout(function() {
 				self.fetch().done(function(results) {
 					// show results (limit?)
